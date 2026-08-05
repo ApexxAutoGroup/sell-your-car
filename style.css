@@ -1,1 +1,118 @@
+body{
+    margin:0;
+    font-family:'Poppins',sans-serif;
+    background:#111;
+    color:#fff;
+}
 
+header{
+    background:#000;
+    padding:30px;
+    text-align:center;
+    border-bottom:4px solid #d4af37;
+}
+
+.logo h1{
+    margin:0;
+    font-size:34px;
+    color:#d4af37;
+}
+
+.logo p{
+    margin-top:5px;
+    color:#fff;
+}
+
+.hero{
+    text-align:center;
+    padding:40px 20px;
+}
+
+.hero h2{
+    font-size:32px;
+}
+
+.lookup{
+    max-width:700px;
+    margin:auto;
+    display:flex;
+    gap:10px;
+    padding:20px;
+}
+
+.lookup input{
+    flex:1;
+    padding:18px;
+    font-size:20px;
+    border-radius:8px;
+    border:none;
+}
+
+.lookup button{
+    background:#d4af37;
+    border:none;
+    color:#000;
+    font-weight:bold;
+    padding:18px 30px;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+.lookup button:hover{
+    background:#f4cf57;
+}
+
+#vehicleResult,
+#valuationForm{
+    max-width:700px;
+    margin:30px auto;
+    background:#1c1c1c;
+    padding:30px;
+    border-radius:12px;
+}
+
+#valuationForm input,
+#valuationForm select{
+    width:100%;
+    padding:15px;
+    margin-bottom:15px;
+    border-radius:8px;
+    border:none;
+    font-size:16px;
+}
+
+#submitBtn{
+    width:100%;
+    background:#d4af37;
+    color:#000;
+    font-size:20px;
+    font-weight:bold;
+    padding:18px;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+#submitBtn:hover{
+    background:#f4cf57;
+}
+
+.hidden{
+    display:none;
+}
+
+@media(max-width:700px){
+
+.lookup{
+    flex-direction:column;
+}
+
+.lookup button{
+    width:100%;
+}
+
+.hero h2{
+    font-size:26px;
+}
+
+}
